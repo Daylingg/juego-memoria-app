@@ -1,0 +1,34 @@
+
+.inicioG{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ff00fb, #8597ff, #bdf7f4, #62e5ff8a, #cef4f3);
+    min-width: 320px;
+}
+
+.inicioCont{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.inicioG h1{
+    color: blue;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.inicioB{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.inicioB button{
+    width: 40%;
+}

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #20b2b22b;
+}
+
+button{
+    background-color: #cef4f3;
+    color: #0b65eb;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: #0064ff;
+    font-size: 20px;
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #ff00fb;
+    color: #cef4f3;
+}
+
+.inicio h2{
+    color: #0b65eb;
+    font-size: 35px;
+    font-family: serif;
+    margin-top: 10px;
+}
+
+.resultado{
+    align-items: center;
+    background: linear-gradient(270deg, #cef4f3 5%, #cef4f3 50%, #ff00fb 160%) 50%;
+    border: #3F51B5 solid 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: center;
+    left: calc(50% - 310px);
+    position: absolute;
+    top: calc(50% - 100px);
+    width: 620px;
+    z-index: 1;
+    text-align: justify;
+}
+
+.resultado p{
+    color: blue;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 0px 10px 0 10px;
+}
+
+.btnFinal{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.resultado button{
+    width: 40%;
+}
+
+@media(max-width:605px) {
+    .tablero{
+        width: 450px;
+    }
+
+    .tableroDificil{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .iconoM{
+        font-size: 35px;
+    }
+
+    .resultado{
+        width: 460px;
+        left: calc(50% - 235px);
+    }
+
+}
+
+@media(max-width:455px) {
+    .tablero{
+        width: 315px;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .tableroDificil{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .tableroMedio{
+        grid-template-columns: repeat(4,1fr) ;
+    }
+
+    .cartas{
+        border: 4px solid #da00ff;
+    }
+
+    .icono{
+        font-size: 45px;
+    }
+
+    .iconoM{
+        font-size: 40px;
+    }
+
+    .iconoD{
+        font-size: 30px;
+    }
+
+    .resultado{
+        width: 318px;
+        left: calc(50% - 158px);
+        height: auto;
+    }
+
+    .btnFinal{        
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .inicioB button{
+        width: 60%;
+    }
+
+}

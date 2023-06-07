@@ -1,0 +1,18 @@
+.tablero{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    width: 600px;
+    height: 500px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.tableroMedio{
+    grid-template-columns: repeat(7,1fr) ;
+}
+
+.tableroDificil{
+    grid-template-columns: repeat(9,1fr);
+}
+

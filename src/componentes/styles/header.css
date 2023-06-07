@@ -1,0 +1,43 @@
+header{
+    height: 150px;
+    margin-top: 10px;
+    min-width: 320px;
+    width: 80%;
+    margin: auto;
+}
+
+.titulo{
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(17, 55, 207);
+    text-align: center;
+}
+
+.button-rein{
+    text-align: center;
+}
+
+.cont-head{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.head{
+    justify-content: end;
+}
+
+.intentos{
+    padding: 5px;
+    color: #1c39ec;
+}
+
+.titulo b{
+    color: #ff00fb;
+
+}
+
+.intentos span{
+    font-weight: bold;
+}

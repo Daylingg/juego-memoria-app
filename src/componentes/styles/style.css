@@ -135,4 +135,8 @@ button:hover{
         width: 60%;
     }
 
+    .cont-head {
+        flex-direction: column;
+    }
+
 }
